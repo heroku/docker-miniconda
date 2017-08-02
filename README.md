@@ -26,4 +26,7 @@ Push the Docker container to Heroku:
 
     $ heroku container:push web
 
+
+You may tailor the `Dockerfile` to your needs. 
+
 ✨🍰✨
