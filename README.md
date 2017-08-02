@@ -5,3 +5,10 @@ This repository contains a Python docker image, powered by [Miniconda](http://co
 
 [Image available on Dockerhub](https://hub.docker.com/r/heroku/miniconda/).
 
+## Deploy to Heroku
+
+    $ git clone https://github.com/heroku/docker-miniconda.git
+    $ cd https://github.com/heroku/docker-miniconda.git
+    $ heroku create 
+    
+    $ heroku container:push web
