@@ -7,8 +7,23 @@ This repository contains a Python docker image, powered by [Miniconda](http://co
 
 ## Deploy to Heroku
 
+
+Clone this repo:
+
     $ git clone https://github.com/heroku/docker-miniconda.git
     $ cd https://github.com/heroku/docker-miniconda.git
+
+
+Create the Heroku App (if you don't already have one):
+
     $ heroku create 
     
+Login to the Heroku container Registry (if you haven't already):
+
+    $ heroku container:login
+
+Push the Docker container to Heroku:
+
     $ heroku container:push web
+
+✨🍰✨
