@@ -28,5 +28,3 @@ Push the Docker container to Heroku:
 
 
 You may tailor the `Dockerfile` to your needs. 
-
-✨🍰✨
